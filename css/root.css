@@ -1,0 +1,71 @@
+:root {
+    --nero: #252525;
+    --white: white;
+    --orange: #FF6347;
+    --gray: #d0d0d0;
+
+
+
+    --bb:#000000;
+    --yellow:#fde873;
+    --bw:#e7fbff;
+
+    --mint-green:#98ff98;
+    --pp:#f2c2cd;
+    --lg:#d3d3d3;
+    --bv:#6c79e0;
+    --ubuntu: "Ubuntu", sans-serif;
+    --kaushan: "Kaushan Script", cursive;
+    --inter: "Inter", sans-serif;
+    --poppins: "Poppins", cursive;
+  }
+
+
+  body::-webkit-scrollbar {
+    width: 5px;
+   height: 2px;
+  }
+   
+  body::-webkit-scrollbar-track {
+   
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--yellow);
+    border-radius: 12px;
+  }
+
+  /* .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+
+
+  .show {
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+  } */
+
+  .hidden-left {
+    opacity: 0;
+    filter: blur(8px);
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+  
+  .hidden-right {
+    opacity: 0;
+    filter: blur(8px);
+    transform: translateX(100%);
+    transition: all 1s;
+  }
+  
+  .show {
+    filter: blur(0);
+    transform: translateX(0);
+    opacity: 1;
+  }

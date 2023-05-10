@@ -1,0 +1,133 @@
+footer {
+    background-color: var(--yellow);
+  
+  }
+  footer .info .con {
+    display: flex;
+  }
+  .info {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+  
+  }
+  .info h4 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .con {
+    flex-basis: 50%;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: flex-start;
+  }
+  
+  .con .social-media-icons{
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .con p {
+    font-size: 15px;
+    display: flex;
+    color:var(--bb);
+  
+  }
+  .con h4 {
+    font-family: var(--poppins);
+    font-size: 25px;
+    color:var(--bb);
+  }
+  .rights {
+    display: flex;
+    color:white;
+    font-family: var(--poppins);
+    font-size: 14px;
+    margin-top: 50px;
+    justify-content: center;
+    font-weight: lighter;
+    background-color: #333;
+  }
+  .con ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    color:var(--bb);
+    font-size: 15px;
+    
+  }
+  .social-media-icons {
+      list-style-type: none;
+      padding: 0;
+  
+    }
+  .social-media-icons li a {
+    color:var(--bb);
+    font-size: 32px;
+    margin: 5px;
+    
+  }
+  
+  @media only screen and (max-width: 799px) {
+    .info {
+      flex-direction: column;
+    }
+    
+  
+    .con {
+      flex-basis: 100%;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      text-align: center;
+    }
+  
+    .con h4 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .con p {
+      font-size: 16px;
+    }
+  
+    .rights {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  
+    .social-media-icons li a {
+      font-size: 24px;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    .info h4 {
+      font-size: 20px;
+    }
+  
+    .con h4 {
+      font-size: 20px;
+    }
+  
+    .con p {
+      font-size: 16px;
+    }
+  
+    .rights {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+  
+    .social-media-icons li a {
+      font-size: 20px;
+    }
+    .popular-recipes {
+      font-size: 35px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+  }
+  

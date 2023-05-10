@@ -1,0 +1,97 @@
+.update-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("../img/Xassets/about-us-hero.jpg");
+  background-color: var(--yellow);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  width: 100%;
+  margin-top: 4.4rem;
+  height: calc(100vw * 699 / 1900);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+}
+
+.update-box {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  border-radius: 35px;
+  color: var(--bb);
+}
+
+.update-box h2 {
+  font-size: calc(100vw * 75 / 1900);
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+
+.update-box form {
+  display: inline-block;
+}
+
+.update-box form input[type="email"] {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  width: 350px;
+}
+
+.update-box form button[type="submit"] {
+  background-color: var(--yellow);
+  color: var(--bb);
+  font-weight: bold;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 130px;
+}
+
+.update-box p {
+  font-size: 16px;
+  margin-top: 20px;
+  color: white;
+}
+
+
+
+@media (max-width: 768px) {
+  .update-section {
+    height: auto;
+  }
+  .update-box {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .update-box h2 {
+    font-size: 34px;
+  }
+
+  .update-box form input[type="email"] {
+    width: 80%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .update-box form button[type="submit"] {
+    width: 80%;
+    font-size: 16px;
+  }
+  .update-box p {
+    font-size: 16px;
+  }
+  .box {
+    margin: 20px;
+    max-width: none;
+    height: auto;
+    border-radius: 20px;
+  }
+}

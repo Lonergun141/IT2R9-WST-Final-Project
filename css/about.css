@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body, html {
+  height: 100%;
+}
+
+
+.hero-image {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url("../img/About/about-us-hero.jpg");
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 1;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.hero-image:after{
+  position: absolute;
+
+}
+
+.hero-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-text h1{
+  font-size:calc(100vw * 180/1900);
+  font-family: var(--kaushan);
+  color: var(--white);
+  z-index: 12;
+}
+.hero-text p{
+  font-size:calc(100vw * 16/1900);
+  font-family: var(--poppins);
+  color: var(--white);
+  z-index: 12;
+}
+.hero-text button{
+  margin-top: 10px;
+  background-color: var(--yellow);
+  padding:15px;
+  width: calc(100vw * 350/1900);
+  border-radius: 5px;
+  font-size: 21px;
+  font-family: var(--poppins);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+}
+.about-main {
+  flex-basis: 50%;
+}
+.about-text {
+  flex-basis: 50%;
+}
+.about-main img {
+  width: calc(100vw * 800 / 1900);
+}
+
+.about-text h1 span {
+  color: var(--yellow);
+  margin-right: 15px;
+  font-family: var(--kaushan);
+}
+
+.about-text h1 {
+  font-size: calc(100vw * 85 / 1900);
+  font-family: var(--kaushan);
+}
+.about-text h3 {
+  font-size: calc(100vw * 35 / 1900);
+  font-family: var(--poppins);
+}
+.about-text p {
+  font-size: calc(100vw * 16 / 1900);
+  font-family: var(--poppins);
+  margin-bottom: 10%;
+}
+
+.about-text a {
+  background: var(--yellow);
+  padding: 15px 25px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+.devs{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  margin: 5%;
+  flex-basis: 50%;
+}
+.title-devs h1{
+  font-size: calc(100vw * 75/1900);
+  flex-basis: 50%;
+}
+.profiles{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #DCD8FB;
+}
+
+.Developers{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: var(--bv);
+  padding: 5%;
+}
+
+.about-sec{
+  display:flex;
+  justify-content:center;
+  align-Items:center;
+  flex-wrap: wrap;
+  /* background-image:linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%), url('../img/About/bg-1.jpg'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container-sec{
+  display:flex;
+  justify-content:center;
+  align-Items:center;
+  padding: 5%;
+  margin-top:5%;
+}
+.sec-left{
+  flex-basis:50%;
+  align-items: center;
+  justify-content:center;
+  display: flex;
+}
+.sec-right{
+  flex-basis:50%;
+}
+.sec-right h1{
+  font-size:calc(100vw * 55/1900);
+}
+.sec-left-1 h1{
+  font-size:calc(100vw * 55/1900);
+}
+.sec-left img{
+  max-width:calc(100vw * 500/1900);
+}
+.sec-right-1 img{
+  max-width:calc(100vw * 500/1900);
+}
+
+.sec-left-1{
+  flex-basis:50%;
+  text-align: right;
+}
+.sec-right-1{
+  align-items: center;
+  justify-content:center;
+  display: flex;
+  flex-basis:50%;
+}
+.section-header h1{
+  text-align: center;
+  margin: 5%;
+  font-size: calc(100vw * 85/1900);
+}
+.row-dev {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+}
+.row-dev .column-dev {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.row-dev .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.row-dev .container-dev {
+  padding: 5%;
+}
+
+.row-dev .container-dev::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row-dev .title {
+  color: grey;
+}
+
+.card img{
+  width: 100%;
+}
+
+.row-dev .button:hover {
+  background-color: var(--bv);
+}
+.container-dev p{
+  font-size: calc(100vw * 21/1900);
+}
+.container-dev h2{
+  font-size: calc(100vw * 41/1900);
+}
+.Awk{
+  text-align: center;
+  padding: 5%;
+  background-image:linear-gradient(#000000e6, #00000080),url("../img/About/ustp.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 50vh;
+}
+.Awk h1{
+  color: white;
+  font-size: calc(100vw * 75/1900);
+}
+.Awk p{
+  color: white;
+}
+.title-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title-header h1 span {
+  color: var(--yellow);
+  margin-right: calc(100vw * 25 / 1900);
+  font-family: var(--kaushan);
+}
+
+.title-header h1 {
+  font-size: calc(100vw * 85 / 1900);
+  font-family: var(--kaushan);
+}
+.title-header h3 {
+  font-size: calc(100vw * 35 / 1900);
+}
+@media screen and (max-width: 799px){
+  .hero-image{
+    height:55%;
+  }
+  .hero-text h1{
+    font-size:85px;
+  }
+  .hero-text p{
+    font-size:16px;
+  }
+  .hero-text button{
+    width: 250px;
+  }
+  table th,
+  table td{
+    padding: 5px;
+    font-size: 16px;
+  }
+  .about-sec{
+    flex-wrap: wrap;
+    flex-direction:column;
+  }
+  .container-sec{
+    flex-direction:column;
+    text-align:center;
+
+  }
+  .sec-left-1{
+    order: 2;
+  }
+  .sec-right-1{
+    order: 1;
+  }
+  .row-dev{
+    flex-direction:column;
+  }
+  .container-dev h2{
+    font-size:21px;
+  }
+  .container-dev p{
+    font-size: 16px;
+  }
+  .row-dev .column-dev{
+    width: 300px;
+  }
+  .section-header h1{
+    font-size:45px;
+  }
+  .sec-left-1 h1{
+    text-align:center;
+  }
+  .sec-left-1 p{
+    text-align: center;
+  }
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-main,
+  .about-text {
+    flex-basis: 100%;
+  }
+
+  .about-main img {
+    overflow: hidden;
+    width: 400px;
+    margin-left: 5%;
+  }
+  
+
+  .about-text h1 {
+    font-size: 70px;
+  }
+
+  .about-text h3 {
+    font-size: 30px;
+  }
+
+  .about-text p {
+    font-size: 16px;
+  }
+
+
+}
+@media screen and (max-width: 599px){
+  .hero-text h1{
+    font-size:45px;
+  }
+  .hero-text p{
+    font-size:12px;
+  }
+  .hero-text button{
+    width: 150px;
+    font-size: 12px;
+  }
+  table th,
+  table td{
+    padding: 3px;
+    font-size: 12px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,68 @@
+.testimonial{
+	position: relative;
+	max-width:1200px;
+	width: 100%;
+	padding: 30px 0;
+	row-gap: 30px;
+	overflow: hidden;
+}
+.test-container{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 80vh;
+	/* background-color: var(--yellow); */
+}
+
+.testimonial img{
+	height: 170px;
+	width: 170px;
+	object-fit: cover;
+	border-radius: 50%;
+} 
+.testimonial .slide{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	row-gap: 30px;
+}
+.slide p{
+	padding: 0 100px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 500;
+	color: #333;
+}
+.slide .quote-icon{
+	font-size:30px;
+	color: var(--yellow);
+}
+.slide .details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.details .name {
+	font-size:14px;
+	font-weight: 600;
+	color: #333;
+}
+.details .job {
+	font-size:14px;
+	font-weight: 400;
+	color: #333;
+}
+
+@media screen and (max-width: 799px) {
+	.slide p {
+		font-size: 12px;
+	  }
+	  .testimonial img{
+		width: 100px;
+		height: 100px;
+	  }
+	
+}
