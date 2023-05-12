@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,13 +30,14 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <!--Script-->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 </head>
 
 <body>
     <!--Nav------------------------------------------------->
     <nav id="myNav">
-        <div class="wrapper">
-            <div class="logo"> <a href="index.html"><img src="img/Xassets/logo3.png" alt="logo" /></a> </div> <input type="radio" name="slider" id="menu-btn" /> <input type="radio" name="slider" id="close-btn" />
+    <div class="wrapper">
+            <div class="logo"> <a href="index.html"><img src="../img/Xassets/logo3.png" alt="logo" /></a> </div> <input type="radio" name="slider" id="menu-btn" /> <input type="radio" name="slider" id="close-btn" />
             <ul class="nav-links" id="myNavLinks">
                 <li> <a href="index.html" class="main-link"><i class="fa-solid fa-house-chimney"></i>Home</a> </li>
                 <li> <a href="About.html" class="main-link"><i class="fa-solid fa-address-card"></i>About</a> </li>
@@ -53,12 +55,13 @@
                                 </ul>
                             </div>
                             <div class="row">
-                                <header>Common Recipes</header>
+                                <header>Recipes</header>
                                 <ul class="mega-links">
-                                    <li> <a href="Recipe.html"><i class="fa-solid fa-burger"></i>Burger</a> </li>
-                                    <li> <a href="#"><i class="fa-solid fa-pizza-slice"></i>Pizza</a> </li>
-                                    <li><a href="#">Steak</a></li>
-                                    <li><a href="#">Chicken</a></li>
+                                    <li> <a href="all.html">All</a> </li>
+                                    <li> <a href="#">Breakfast</a> </li>
+                                    <li><a href="#">Lunch</a></li>
+                                    <li><a href="#">Dinner</a></li>
+                                    <li><a href="#">Snacks</a></li>
                                 </ul>
                             </div>
                             <div class="row">
@@ -75,21 +78,31 @@
                     </div>
                 </li>
                 <li id="bg-contact"> <a href="contact.html" class="main-link"><i class="fa-solid fa-address-book"></i>Contact</a> </li> <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-                <li id="bg-sign-up"> <a href="" class="main-link"><i class="fa-solid fa-user"></i>Sign Up</a> </li> <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <!-- <li class="dropdown" id="bg-sign-up"> <a href="" class="main-link"><i class="fa-solid fa-user"></i>Sign Up</a> 
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="#">Log In</a></li>
+                        <li class="dropdown-item"><a href="#">Create Account</a></li>
+                        <li class="dropdown-item"><a href="#">Light Mode</a></li>
+                      </ul>
+                </li>  -->
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
             </ul> <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
         </div>
+
     </nav>
+
+
     <!--Hero Section------------------------------------------>
     <section class="hero">
         <div class="carousel">
             <div class="overlay"></div> <img src="img/home/slider-3.jpg" alt="" /> <img src="img/home/slider-1.jpg" alt="" /> <img src="img/home/slider-2.jpg" alt="" />
         </div>
-        <div class="hero-content">
+        <div class="hero-content hidden-left">
             <h1>Craving Food?</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit, praesentium! Porro eligendi consequatur sapiente repellendus sed et, odit illum sunt atque obcaecati voluptatibus molestiae dicta facere nemo itaque, blanditiis cupiditate!</p> <a href="#" class="btn">Learn More</a>
         </div>
-        <div class="hero-image">
-            <img src="img/home/stek.png" alt="steak">
+        <div class="hero-image hidden-right">
+          
         </div>
     </section>
    
@@ -171,7 +184,7 @@
                     veritatis vitae ea deleniti fugiat quisquam tempora, accusantium corrupti excepturi optio. 
                     Inventore, cupiditate recusandae.
                 </p>
-                <a href="#" class="about-btn">Learn more</a>
+                <a href="About.html" class="about-btn">Learn more</a>
             </div>
         
     </div>
@@ -179,10 +192,10 @@
 
     <div class="container-pops hidden-right">
         <h1 class="title-pops"><span>Popular</span>Recipes</h1>
-        <div class="box-recipe"></div>
-        <div class="box-recipe"></div>
-        <div class="box-recipe"></div>
-        <div class="box-recipe"></div>
+        <div class="box-recipe"><h2>Classic Burger</h2></div>
+        <div class="box-recipe"><h2>Pepperoni Pizza</h2></div>
+        <div class="box-recipe"><h2>Korean Fried Chicken</h2></div>
+        <div class="box-recipe"><h2>Pan Cake</h2></div>
       </div>
       
 
@@ -211,14 +224,14 @@
     </section>
     <!--Update Section-------------------------------------->
     <section class="update-section hidden-right">
-        <div class="update-box">
+        <div class="update-box hidden-left">
             <h2>Keep Updated on Our Website</h2>
             <form> <input type="email" placeholder="Enter your email address" /> <button type="submit">Agree</button> </form>
             <p>Connect with us if you would like to receive occasional updates</p>
         </div>
     </section>
     <footer class="hidden-left">
-        <div class="info">
+        <div class="info hidden-right">
             <div class="con">
                 <h4>About us</h4>
                 <p> This website is the collaboration between two students for their final project in web systems and technologies. </p>

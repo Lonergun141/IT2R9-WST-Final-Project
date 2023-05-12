@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lamdag</title>
     <!--CSS-->
-    <link rel="stylesheet" href="css/about.css" />
-    <link rel="stylesheet" href="css/root.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/update.css" />
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/testimonial.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="../css/root.css" /> 
+    <link rel="stylesheet" href="../css/footer.css" />
+    <link rel="stylesheet" href="../css/update.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/testimonial.css">
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
     <!--fONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,12 +27,15 @@
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <!--Script-->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="js/home.js"></script>
+    
 </head>
 
 <body>
-    <nav id="myNav">
+
+        <nav id="myNav">
         <div class="wrapper">
-            <div class="logo"> <a href="index.html"><img src="img/Xassets/logo3.png" alt="logo" /></a> </div> <input type="radio" name="slider" id="menu-btn" /> <input type="radio" name="slider" id="close-btn" />
+            <div class="logo"> <a href="index.html"><img src="../img/Xassets/logo3.png" alt="logo" /></a> </div> <input type="radio" name="slider" id="menu-btn" /> <input type="radio" name="slider" id="close-btn" />
             <ul class="nav-links" id="myNavLinks">
                 <li> <a href="index.html" class="main-link"><i class="fa-solid fa-house-chimney"></i>Home</a> </li>
                 <li> <a href="About.html" class="main-link"><i class="fa-solid fa-address-card"></i>About</a> </li>
@@ -50,12 +53,13 @@
                                 </ul>
                             </div>
                             <div class="row">
-                                <header>Common Recipes</header>
+                                <header>Recipes</header>
                                 <ul class="mega-links">
-                                    <li> <a href="Recipe.html"><i class="fa-solid fa-burger"></i>Burger</a> </li>
-                                    <li> <a href="#"><i class="fa-solid fa-pizza-slice"></i>Pizza</a> </li>
-                                    <li><a href="#">Steak</a></li>
-                                    <li><a href="#">Chicken</a></li>
+                                    <li> <a href="all.html">All</a> </li>
+                                    <li> <a href="#">Breakfast</a> </li>
+                                    <li><a href="#">Lunch</a></li>
+                                    <li><a href="#">Dinner</a></li>
+                                    <li><a href="#">Snacks</a></li>
                                 </ul>
                             </div>
                             <div class="row">
@@ -72,12 +76,20 @@
                     </div>
                 </li>
                 <li id="bg-contact"> <a href="contact.html" class="main-link"><i class="fa-solid fa-address-book"></i>Contact</a> </li> <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-                <li id="bg-sign-up"> <a href="" class="main-link"><i class="fa-solid fa-user"></i>Sign Up</a> </li> <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                <!-- <li class="dropdown" id="bg-sign-up"> <a href="" class="main-link"><i class="fa-solid fa-user"></i>Sign Up</a> 
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href="#">Log In</a></li>
+                        <li class="dropdown-item"><a href="#">Create Account</a></li>
+                        <li class="dropdown-item"><a href="#">Light Mode</a></li>
+                      </ul>
+                </li>  -->
+                <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
             </ul> <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
         </div>
-    </nav>
-    <section class="hero-image">
-        <div class="hero-text">
+        </nav>
+    
+    <section class="hero-image reveal-hidden-left">
+        <div class="hero-text reveal-hidden-right">
             <div class="overlay"></div>
             <h1>We are Lamdag</h1>
             <p>lamdag [lam. dag.] : shining (adj.) Synonyms: landag.</p>
@@ -85,10 +97,10 @@
     </section>
    
     <div class="about">
-        <div class="about-main">
+        <div class="about-main reveal-hidden-left">
                 <img src="img/home/Food-Plate.png" alt="foodplate">
             </div>
-            <div class="about-text">
+            <div class="about-text reveal-hidden-right">
                 <h1><span>About</span>Us</h1>
                 <h3>Why Choose us?</h3>
                 <p>
@@ -104,11 +116,11 @@
         
     </div>
 
-    <div class="title-header">
+    <div class="title-header reveal-hidden-left">
         <h1><span>Customer</span>Reviews</h1>
         <h3>What They Say About Us</h3>
     </div>
-    <section class="test-container ">
+    <section class="test-container reveal-hidden-right">
         <div class="testimonial mySwiper-revs">
             <div class="testi-content swiper-wrapper">
                 <div class="slide swiper-slide"> <img src="img/home/john.jpg" alt="Wick" />
@@ -128,11 +140,11 @@
         </div>
     </section>
 
-    <section class="Awk">
+    <section class="Awk reveal-hidden-right">
         <h1>Acknowledgements</h1>
         <p>We would like to express our gratitude towards USTP, Mr. Alex Simon Dacer and our fellow classmates for their invaluable contribution in building our food recipe website. Without their help and support, this project would not have been possible.</p>
     </section>
-    <div class="section-header">
+    <div class="section-header reveal-hidden-left">
         <h1>Developers</h1>
     </div>
     <section class="row-dev">
@@ -206,7 +218,7 @@
     <script src="js/nav.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/reviews.js"></script>
-    <script src="js/home.js"></script>
+
 </body>
 
 </html>

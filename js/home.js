@@ -73,11 +73,11 @@ function search() {
 //   const hiddenElements = document.querySelectorAll('.hidden');
 //   hiddenElements.forEach((el) => observer.observe(el));
   
-const observer = new IntersectionObserver((entries, observer) => {
+const observer = new IntersectionObserver((entries) => {
+
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('show');
-      observer.unobserve(entry.target);
     } else {
       entry.target.classList.remove('show')
     }
@@ -86,6 +86,22 @@ const observer = new IntersectionObserver((entries, observer) => {
 
 const hiddenElementsLeft = document.querySelectorAll('.hidden-left');
 const hiddenElementsRight = document.querySelectorAll('.hidden-right');
+
+hiddenElementsLeft.forEach((el) => observer.observe(el));
+hiddenElementsRight.forEach((el) => observer.observe(el));
+
+const observerAbout = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show-about");
+    } else {
+      entry.target.classList.remove("show-about");
+    }
+  });
+});
+
+const heal = document.querySelectorAll(".reveal-hidden-left");
+const hear = document.querySelectorAll(".reveal-hidden-right");
 
 hiddenElementsLeft.forEach((el) => observer.observe(el));
 hiddenElementsRight.forEach((el) => observer.observe(el));

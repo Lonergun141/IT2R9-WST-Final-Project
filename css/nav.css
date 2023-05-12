@@ -217,17 +217,46 @@ nav .wrapper{
   visibility: visible;
 }
 
+.dropdown {
+  position: relative;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: var(--orange);
+  padding: 5%;
+  margin: 0;
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+}
+
+.dropdown-item a {
+  display: block;
+  padding: 5px;
+  color: #333;
+  font-family: var(--poppins);
+  text-decoration: none;
+  text-align: center;
+}
+
+
 @media screen and (max-width: 799px) {
   .wrapper .btn {
     display: block;
     margin-right: 20px;
     color: var(--yellow);
-  }
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
   }
   nav .wrapper {
     width: 100%;
