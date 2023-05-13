@@ -53,25 +53,6 @@ function search() {
   });
 }
 
-
-
-//scroll effect
-// const observer = new IntersectionObserver((entries, observer) => {
-//   //ge loop each entries constant
-//    entries.forEach(entry => {
-//     console.log(entry)
-//     //if ang user makita ma view ang screen ana nga part
-//      if (entry.isIntersecting) {
-//       //ge initialize ang css na show nga mo opacity 1
-//       entry.target.classList.add('show');
-//        observer.unobserve(entry.target);
-//     }else{
-//       entry.target.classList.remove('show')
-//     }
-//    });
-//   });
-//   const hiddenElements = document.querySelectorAll('.hidden');
-//   hiddenElements.forEach((el) => observer.observe(el));
   
 const observer = new IntersectionObserver((entries) => {
 

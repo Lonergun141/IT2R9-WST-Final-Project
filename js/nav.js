@@ -50,3 +50,13 @@ megaBox.addEventListener('mouseout', function() {
   }
 });
 
+window.addEventListener('scroll', function() {
+  var label = document.getElementById('scroll-label');
+  var scrollPosition = window.scrollY;
+
+  if (scrollPosition > 0) {
+    label.classList.add('scroll-black');
+  } else {
+    label.classList.remove('scroll-black');
+  }
+});
