@@ -33,7 +33,7 @@ searchInput.addEventListener('keypress', function (e) {
   }
 });
 
-// Add an event listener for the search button click
+
 searchBtn.addEventListener('click', search);
 
 function search() {
@@ -53,36 +53,4 @@ function search() {
   });
 }
 
-  
-const observer = new IntersectionObserver((entries) => {
 
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-    } else {
-      entry.target.classList.remove('show')
-    }
-  });
-});
-
-const hiddenElementsLeft = document.querySelectorAll('.hidden-left');
-const hiddenElementsRight = document.querySelectorAll('.hidden-right');
-
-hiddenElementsLeft.forEach((el) => observer.observe(el));
-hiddenElementsRight.forEach((el) => observer.observe(el));
-
-const observerAbout = new IntersectionObserver((entries) => {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("show-about");
-    } else {
-      entry.target.classList.remove("show-about");
-    }
-  });
-});
-
-const heal = document.querySelectorAll(".reveal-hidden-left");
-const hear = document.querySelectorAll(".reveal-hidden-right");
-
-hiddenElementsLeft.forEach((el) => observer.observe(el));
-hiddenElementsRight.forEach((el) => observer.observe(el));
