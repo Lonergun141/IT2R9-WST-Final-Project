@@ -1,4 +1,4 @@
-<div class="testimonial mySwiper-revs ">
+<div class="testimonial mySwiper-revs " data-aos="fade-up">
             <div class="testi-content swiper-wrapper">
                 <div class="slide swiper-slide"> <img src="img/home/john.jpg" loading="lazy" alt="Wick" />
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloribus at, sit harum cupiditate rerum quae, ullam laborum vel esse ratione unde, aliquam maiores eaque. Sed voluptatibus dolore nobis alias. </p> <i class="bx bxs-quote-alt-left quote-icon"></i>

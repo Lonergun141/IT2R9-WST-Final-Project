@@ -50,7 +50,7 @@
                             <div class="row">
                                 <header>Recipes</header>
                                 <ul class="mega-links">
-                                    <li> <a href="all.html">All</a> </li>
+                                    <li> <a href="all.php">All</a> </li>
                                     <li> <a href="#">Breakfast</a> </li>
                                     <li><a href="#">Lunch</a></li>
                                     <li><a href="#">Dinner</a></li>

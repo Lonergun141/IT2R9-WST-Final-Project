@@ -152,6 +152,12 @@
 .food-card .content {
   padding: 15px;
 }
+.food-card .content{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
 
 .food-card h3 {
   margin-top: 0;
@@ -163,6 +169,7 @@
 .food-card p {
   margin: 0;
   font-family: "Poppins", sans-serif;
+
 }
 .content p:nth-child(3) {
   margin: 5%;
@@ -172,8 +179,8 @@
   font-weight: 500;
   font-size: calc(100vw * 16 / 1900);
 }
-.content p:nth-child(4) {
-  margin: 5%;
+.food-card  .content a{
+  margin-top: 5%;
   color: black;
   padding: calc(100vw * 25 / 1900);
   background-color: var(--yellow);
@@ -183,8 +190,9 @@
   font-weight: 500;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  text-decoration: none;
 }
-.content p:nth-child(4):hover {
+.food-card  .content a:nth-child(4):hover {
   background-color: var(--bv);
   color: var(--white);
 }
@@ -926,9 +934,9 @@ nav .wrapper {
     margin-right: auto;
   }
   .row .mega-links li a {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 200;
-    margin: 5%;
+    margin: 2%;
     padding: 10px;
   }
 
@@ -1085,16 +1093,6 @@ nav input {
   font-weight: bold;
 }
 
-/* Scroll effect*/
-
-.bgColor {
-  background-color: white;
-  transition: all 1s;
-}
-
-.bgColor li a {
-  color: black;
-}
 
 /******************** FOOTER ************************/
 footer {
@@ -1327,7 +1325,7 @@ footer .info .con {
 .testimonial {
   position: relative;
   max-width: 1200px;
-  height: 100vh;
+  height: 75vh;
   width: 100%;
   padding: 30px 0;
   row-gap: 30px;
