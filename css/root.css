@@ -36,14 +36,6 @@
     border-radius: 12px;
   }
 
-  .bgColor {
-    background-color: white;
-    transition: all 1s;
-  }
-  
-  .bgColor li a {
-    color: black;
-  }
 
    /* .hidden-left {
     opacity: 0;

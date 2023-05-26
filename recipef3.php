@@ -8,7 +8,7 @@
     <title>Lamdag Recipes</title>
     <link rel="icon" href="img/Xassets/logo3.png" />
     <!--CSS-->
-    <link rel="stylesheet" href="css/RecipeF.css" defer />
+    <link rel="stylesheet" href="css/RecipeF3.css" defer />
     <link rel="stylesheet" href="css/style.css" defer />
     <link rel="stylesheet" href="css/root.css" defer />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" defer />
@@ -92,28 +92,29 @@
     <section class = "page">
         <div class = "recipe-page">
             <section class = "recipe-hero">
-                <img src="img/recipe/classburg.png" class="img recipe-hero-img" loading="lazy" alt="Food Image">
+                <img src="img/recipe/korchix.png" class="img recipe-hero-img" loading="lazy" alt="Food Image">
                 <div class = "recipe-info">
-                    <h2>Classic Burger </h2>
-                    <p id = "p1">   Indulge in the irresistible allure of our Classic Burger. Sink your teeth into a toasted bun, 
-                        topped with crisp lettuce, ripe tomatoes, onions, and delectable bacon mayo. 
-                        A harmonious blend of flavors that exceeds expectations.
+                    <h2>Korean Fried Chicken </h2>
+                    <p id = "p1">   Get ready to savor the bold and dynamic flavors of Korean cuisine with each crunchy bite—a crispy and succulent masterpiece. 
+                        Tender chicken wings or drumsticks coated in a flavorful blend of spices, fried to perfection, and coated 
+                        in a harmonious sauce of gochujang, soy sauce, and honey. 
+                        
                     </p>
                     <div class = "recipe-icons">
                         <div>
                             <i class = "fas fa-clock"></i>
                             <h5>prep time</h5>
-                            <p>15 mins</p>
+                            <p>15—20 mins</p>
                         </div>
                         <div>
                             <i class = "far fa-clock"></i>
                             <h5>cook time</h5>
-                            <p>10—12 mins</p>
+                            <p>25—30 mins</p>
                         </div>
                         <div>
                             <i class = "fas fa-user-friends"></i>
                             <h5>serving</h5>
-                            <p>1 serving</p>
+                            <p>4—6 servings</p>
                         </div>
                     </div>
                     <p class = "recipe-tags"> Tags : 
@@ -135,7 +136,7 @@
                     <p>step 1</p>
                     <div></div>
                 </header>
-                <p>Oil your grill or a cast-iron pan, and grill or sear the beef patty as well as your burger bun around 54 degrees Celsius. Cook them to your desired doneness.</p>
+                <p>Prepare the chicken: In a large bowl, combine the flour, cornstarch, salt, black pepper, garlic powder, and ginger powder. Toss the chicken wings or drumsticks in the flour mixture, ensuring they are evenly coated.</p>
             </div>
             <!--STEP 2-->
             <div class = "single-instruction">
@@ -143,7 +144,7 @@
                     <p>step 2</p>
                     <div></div>
                 </header>
-                <p>Once the beef patty is ready, add onion rings on top and let it sit on the patty for a couple of minutes.</p>
+                <p>Fry the chicken: In a deep pot or skillet, heat vegetable oil to a temperature of around 350°F (175°C). Carefully add the coated chicken pieces in batches, frying them for about 10-12 minutes or until they turn golden brown and crispy. Transfer the cooked chicken to a paper towel-lined plate to drain excess oil.</p>
             </div>
             <!--STEP 3-->
             <div class = "single-instruction">
@@ -151,7 +152,7 @@
                     <p>step 3</p>
                     <div></div>
                 </header>
-                <p>Add the lettuce next and make sure it is already washed and cleaned.</p>
+                <p>Make the sauce: In a separate saucepan, combine the gochujang, soy sauce, honey (or brown sugar), and rice vinegar. Cook over medium heat, stirring constantly, until the sauce thickens and becomes glossy.</p>
             </div>
             <!--STEP 4-->
             <div class = "single-instruction">
@@ -159,7 +160,7 @@
                     <p>step 4</p>
                     <div></div>
                 </header>
-                <p>Spread the bacon mayonnaise generously on the base toasted bun.</p>
+                <p>Coat the chicken in sauce: Place the fried chicken in a large bowl and pour the prepared sauce over it. Toss the chicken gently to ensure it is evenly coated with the sauce.</p>
             </div>
             <!--STEP 5-->
             <div class = "single-instruction">
@@ -167,17 +168,25 @@
                     <p>step 5</p>
                     <div></div>
                 </header>
-                <p>After making your burger, serve it on a plate with your desired dips on the side. Enjoy your meal!</p>
+                <p>Serve and garnish: Transfer the Korean Fried Chicken to a serving platter and garnish with sesame seeds and chopped green onions, if desired. Serve it hot and enjoy the crispy, flavorful delight of Korean Fried Chicken!</p>
             </div>
         </div>
         <div class = "second-column">
             <div>
                 <h4>Ingredients</h4>
-                <p class = "single-ingredient">1 pc burger bun</p>
-                <p class = "single-ingredient">1 pc beef patty</p>
-                <p class = "single-ingredient">1 pc lettuce</p>
-                <p class = "single-ingredient">1 cup bacon mayonnaise</p>
-                <p class = "single-ingredient">2 pcs onion rings</p>
+                <p class = "single-ingredient">2 pounds of chicken wings/drumsticks</p>
+                <p class = "single-ingredient">1 cup of all-purpose flour</p>
+                <p class = "single-ingredient">1 cup of cornstarch</p>
+                <p class = "single-ingredient">1 teaspoon of salt</p>
+                <p class = "single-ingredient">1/2 teaspoon of black pepper</p>
+                <p class = "single-ingredient">1/2 teaspoon of garlic powder</p>
+                <p class = "single-ingredient">1/2 teaspoon of ginger powder</p>
+                <p class = "single-ingredient">1/2 cup of gochujang (Korean red pepper paste)</p>
+                <p class = "single-ingredient">1/4 cup of soy sauce</p>
+                <p class = "single-ingredient">1/4 cup of honey or brown sugar</p>
+                <p class = "single-ingredient">2 tablespoons of rice vinegar</p>
+                <p class = "single-ingredient">Vegetable oil for frying</p>
+                <p class = "single-ingredient">Optional garnish: sesame seeds, chopped green onions</p>
             </div>
         </div>
     </section>

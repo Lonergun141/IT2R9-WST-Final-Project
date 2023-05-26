@@ -8,7 +8,7 @@
     <title>Lamdag Recipes</title>
     <link rel="icon" href="img/Xassets/logo3.png" />
     <!--CSS-->
-    <link rel="stylesheet" href="css/RecipeF.css" defer />
+    <link rel="stylesheet" href="css/RecipeF4.css" defer />
     <link rel="stylesheet" href="css/style.css" defer />
     <link rel="stylesheet" href="css/root.css" defer />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" defer />
@@ -92,23 +92,24 @@
     <section class = "page">
         <div class = "recipe-page">
             <section class = "recipe-hero">
-                <img src="img/recipe/classburg.png" class="img recipe-hero-img" loading="lazy" alt="Food Image">
+                <img src="img/recipe/pcake.png" class="img recipe-hero-img" loading="lazy" alt="Food Image">
                 <div class = "recipe-info">
-                    <h2>Classic Burger </h2>
-                    <p id = "p1">   Indulge in the irresistible allure of our Classic Burger. Sink your teeth into a toasted bun, 
-                        topped with crisp lettuce, ripe tomatoes, onions, and delectable bacon mayo. 
-                        A harmonious blend of flavors that exceeds expectations.
+                    <h2>Pan Cake</h2>
+                    <p id = "p1"> Feast the Fluffy Delight of Homemade Pancakes—a symphony of texture, sweetness, and pure indulgence. 
+                        Lovingly crafted, these pancakes awaken your senses and bring joy to your mornings. Drizzle with maple syrup, 
+                        adorn with your favorite toppings, and surrender to the bliss of savoring these soft, comforting treats that embody happiness in every bite. 
+                        
                     </p>
                     <div class = "recipe-icons">
                         <div>
                             <i class = "fas fa-clock"></i>
                             <h5>prep time</h5>
-                            <p>15 mins</p>
+                            <p>10—15 mins</p>
                         </div>
                         <div>
                             <i class = "far fa-clock"></i>
                             <h5>cook time</h5>
-                            <p>10—12 mins</p>
+                            <p>10—15 mins</p>
                         </div>
                         <div>
                             <i class = "fas fa-user-friends"></i>
@@ -135,7 +136,7 @@
                     <p>step 1</p>
                     <div></div>
                 </header>
-                <p>Oil your grill or a cast-iron pan, and grill or sear the beef patty as well as your burger bun around 54 degrees Celsius. Cook them to your desired doneness.</p>
+                <p>In a mixing bowl, whisk together the flour, sugar, baking powder, baking soda, and salt until well combined.</p>
             </div>
             <!--STEP 2-->
             <div class = "single-instruction">
@@ -143,7 +144,7 @@
                     <p>step 2</p>
                     <div></div>
                 </header>
-                <p>Once the beef patty is ready, add onion rings on top and let it sit on the patty for a couple of minutes.</p>
+                <p>In a separate bowl, whisk together the milk, yogurt, egg, and melted butter until smooth.</p>
             </div>
             <!--STEP 3-->
             <div class = "single-instruction">
@@ -151,7 +152,7 @@
                     <p>step 3</p>
                     <div></div>
                 </header>
-                <p>Add the lettuce next and make sure it is already washed and cleaned.</p>
+                <p>Pour the wet ingredients into the dry ingredients and stir until just combined. Be careful not to overmix; a few lumps are okay. Let the batter rest for about 5 minutes.</p>
             </div>
             <!--STEP 4-->
             <div class = "single-instruction">
@@ -159,7 +160,7 @@
                     <p>step 4</p>
                     <div></div>
                 </header>
-                <p>Spread the bacon mayonnaise generously on the base toasted bun.</p>
+                <p>Heat a non-stick skillet or griddle over medium heat and lightly grease it with melted butter. Ladle about 1/4 cup of the batter onto the skillet for each pancake. Cook until bubbles form on the surface, then flip and cook for another 1-2 minutes until golden brown.</p>
             </div>
             <!--STEP 5-->
             <div class = "single-instruction">
@@ -167,17 +168,22 @@
                     <p>step 5</p>
                     <div></div>
                 </header>
-                <p>After making your burger, serve it on a plate with your desired dips on the side. Enjoy your meal!</p>
+                <p>Transfer the cooked pancakes to a serving plate and repeat the process with the remaining batter. Serve the pancakes warm with your choice of toppings, such as maple syrup, fresh fruits, or chocolate chips. Enjoy your pancake!</p>
             </div>
         </div>
         <div class = "second-column">
             <div>
                 <h4>Ingredients</h4>
-                <p class = "single-ingredient">1 pc burger bun</p>
-                <p class = "single-ingredient">1 pc beef patty</p>
-                <p class = "single-ingredient">1 pc lettuce</p>
-                <p class = "single-ingredient">1 cup bacon mayonnaise</p>
-                <p class = "single-ingredient">2 pcs onion rings</p>
+                <p class = "single-ingredient">1 cup all-purpose flour</p>
+                <p class = "single-ingredient">2 tablespoons granulated sugar</p>
+                <p class = "single-ingredient">1 teaspoon baking powder</p>
+                <p class = "single-ingredient">1/2 teaspoon baking soda</p>
+                <p class = "single-ingredient">1/4 teaspoon salt</p>
+                <p class = "single-ingredient">3/4 cup milk</p>
+                <p class = "single-ingredient">1/4 cup plain yogurt</p>
+                <p class = "single-ingredient">1 large egg</p>
+                <p class = "single-ingredient">2 tablespoons melted butter (plus extra for greasing the pan)</p>
+                <p class = "single-ingredient">Optional toppings: maple syrup, fresh fruits, chocolate chips</p>
             </div>
         </div>
     </section>

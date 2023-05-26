@@ -8,7 +8,7 @@
     <title>Lamdag Recipes</title>
     <link rel="icon" href="img/Xassets/logo3.png" />
     <!--CSS-->
-    <link rel="stylesheet" href="css/RecipeF.css" defer />
+    <link rel="stylesheet" href="css/RecipeF2.css" defer />
     <link rel="stylesheet" href="css/style.css" defer />
     <link rel="stylesheet" href="css/root.css" defer />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" defer />
@@ -92,28 +92,29 @@
     <section class = "page">
         <div class = "recipe-page">
             <section class = "recipe-hero">
-                <img src="img/recipe/classburg.png" class="img recipe-hero-img" loading="lazy" alt="Food Image">
+                <img src="img/recipe/pizz4.png" class="img recipe-hero-img" loading="lazy" alt="Food Image">
                 <div class = "recipe-info">
-                    <h2>Classic Burger </h2>
-                    <p id = "p1">   Indulge in the irresistible allure of our Classic Burger. Sink your teeth into a toasted bun, 
-                        topped with crisp lettuce, ripe tomatoes, onions, and delectable bacon mayo. 
-                        A harmonious blend of flavors that exceeds expectations.
+                    <h2>Pepperoni Pizza </h2>
+                    <p id = "p1">   Experience the irresistible delight of pepperoni pizza today. A symphony of flavors with a crispy crust, tangy tomato sauce, 
+                        melted mozzarella, and savory pepperoni. 
+                        Beloved worldwide, this classic favorite brings people together, leaving an unforgettable impression that keeps you craving more. 
+                        
                     </p>
                     <div class = "recipe-icons">
                         <div>
                             <i class = "fas fa-clock"></i>
                             <h5>prep time</h5>
-                            <p>15 mins</p>
+                            <p>15—20 mins</p>
                         </div>
                         <div>
                             <i class = "far fa-clock"></i>
                             <h5>cook time</h5>
-                            <p>10—12 mins</p>
+                            <p>12—15 mins</p>
                         </div>
                         <div>
                             <i class = "fas fa-user-friends"></i>
                             <h5>serving</h5>
-                            <p>1 serving</p>
+                            <p>8 servings</p>
                         </div>
                     </div>
                     <p class = "recipe-tags"> Tags : 
@@ -135,7 +136,7 @@
                     <p>step 1</p>
                     <div></div>
                 </header>
-                <p>Oil your grill or a cast-iron pan, and grill or sear the beef patty as well as your burger bun around 54 degrees Celsius. Cook them to your desired doneness.</p>
+                <p>Preheat the oven: Preheat  your oven to 450°F (230°C) or according to the instructions on the pizza dough package.</p>
             </div>
             <!--STEP 2-->
             <div class = "single-instruction">
@@ -143,7 +144,7 @@
                     <p>step 2</p>
                     <div></div>
                 </header>
-                <p>Once the beef patty is ready, add onion rings on top and let it sit on the patty for a couple of minutes.</p>
+                <p>Prepare the dough: If using store-bought dough, follow the instructions on the package to prepare it. If making homemade dough, roll it out on a lightly floured surface to your desired thickness and shape.</p>
             </div>
             <!--STEP 3-->
             <div class = "single-instruction">
@@ -151,7 +152,7 @@
                     <p>step 3</p>
                     <div></div>
                 </header>
-                <p>Add the lettuce next and make sure it is already washed and cleaned.</p>
+                <p>Assemble the pizza: Place the rolled-out dough on a pizza stone or baking sheet. Spread a layer of tomato sauce evenly over the dough, leaving a small border around the edges. Sprinkle the shredded mozzarella cheese over the sauce, and then arrange the pepperoni slices on top.</p>
             </div>
             <!--STEP 4-->
             <div class = "single-instruction">
@@ -159,7 +160,7 @@
                     <p>step 4</p>
                     <div></div>
                 </header>
-                <p>Spread the bacon mayonnaise generously on the base toasted bun.</p>
+                <p>Bake the pizza: Drizzle a small amount of olive oil over the pizza. Carefully transfer the pizza to the preheated oven and bake for about 12-15 minutes, or until the crust is golden brown and the cheese is bubbly and slightly browned.</p>
             </div>
             <!--STEP 5-->
             <div class = "single-instruction">
@@ -167,17 +168,17 @@
                     <p>step 5</p>
                     <div></div>
                 </header>
-                <p>After making your burger, serve it on a plate with your desired dips on the side. Enjoy your meal!</p>
+                <p>Serve and enjoy: Remove the pizza from the oven and let it cool for a minute or two. Slice it into wedges or squares and serve hot. Enjoy your delicious pepperoni pizza!</p>
             </div>
         </div>
         <div class = "second-column">
             <div>
                 <h4>Ingredients</h4>
-                <p class = "single-ingredient">1 pc burger bun</p>
-                <p class = "single-ingredient">1 pc beef patty</p>
-                <p class = "single-ingredient">1 pc lettuce</p>
-                <p class = "single-ingredient">1 cup bacon mayonnaise</p>
-                <p class = "single-ingredient">2 pcs onion rings</p>
+                <p class = "single-ingredient">1 pizza dough</p>
+                <p class = "single-ingredient">1 cup tomato sauce</p>
+                <p class = "single-ingredient">1 cup pepperoni slices</p>
+                <p class = "single-ingredient">2 cups mozarella cheese, shredded</p>
+                <p class = "single-ingredient">1 tbsp olive oil</p>
             </div>
         </div>
     </section>

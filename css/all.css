@@ -5,10 +5,8 @@
 }
 .all-header{
     height: 50vh;
-    background: url("../img/recipe/recipebg3.jpg");
+    background-image: url('../img/home/slider-2.jpg');
     position: relative;
-    background-size: cover;
-    background-position: center;
     
 }
 .overlay-all {
