@@ -36,27 +36,12 @@
     border-radius: 12px;
   }
 
-
-   /* .hidden-left {
-    opacity: 0;
-    filter: blur(8px);
-    transform: translate3d(-10px, 0, 0);
+  .bgColor {
+    background-color: white;
     transition: all 1s;
-    
   }
   
-  .hidden-right {
-    opacity: 0;
-    filter: blur(8px);
-    transform: translate3d(10px, 0, 0);
-    transition: all 1s;
-  
+  .bgColor li a {
+    color: black;
   }
- 
-  
-  .show {
-    filter: blur(0);
-    transform: translate3d(0, 0, 0);
-    opacity: 1;
-  }   */
 

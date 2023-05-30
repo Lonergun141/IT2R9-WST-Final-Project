@@ -18,9 +18,6 @@
   display: flex;
   gap: 6rem;
 }
-#p1{
-  text-align: justify;
-}
 
 .recipe-info h2{
   margin-top: -5%;
@@ -85,6 +82,7 @@
   display: grid;
   gap: 2rem 5rem;
   grid-template-columns: 2fr 1fr;
+
 }
 .recipe-content h4{
   font-size: 2rem;
@@ -94,12 +92,26 @@
 }
 .single-instruction{
   padding-bottom: 3%;
+
+
+}
+.recipe-content h4{
+  font-size: 2rem;
+
+}
+.first-column h4{
+  padding-bottom: 2rem;
+
+}
+.single-instruction{
+  padding-bottom: 3%;
 }
 .single-instruction header {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1.5rem;
   align-items: center;
+
 }
 .single-instruction header p {
   text-transform: uppercase;
@@ -130,7 +142,7 @@
   color: var(--nero);
   font-size: 1.2rem;
 }
-#r1, h1{
+#r1{
   display: flex;
   flex-direction: row;
   align-items: center;
