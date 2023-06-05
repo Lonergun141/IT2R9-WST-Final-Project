@@ -5,10 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Lamdag Recipes</title>
-        <link rel="icon" href="img/Xassets/logo3.png" />
+        <link rel="icon" href="../img/Xassets/logo3.png" />
         <!--CSS-->
-        <link rel="stylesheet" href="css/style.css" defer />
-        <link rel="stylesheet" href="css/root.css" defer />
+        <link rel="stylesheet" href="../css/style.css" defer />
+        <link rel="stylesheet" href="../css/root.css" defer />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" defer />
         <!--fONTS-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,11 +22,11 @@
     </head>
     <body>
         <!--Nav------------------------------------------------->
-        <nav id="myNav"> <?php include 'php/navbar.php'; ?> </nav>
+        <nav id="myNav"> <?php include '../php/navbar.php'; ?> </nav>
         <section class="page">
             <div class="recipe-page">
                 <div class="recipe-img">
-                    <img src="img/recipe/cake.png" loading="lazy" alt="Food Image">
+                    <img src="../img/recipe/cake.png" loading="lazy" alt="Food Image">
                 </div>
                 <div class="recipe-info">
                     <div class="title-pops" data-aos="fade-up">
@@ -127,9 +127,9 @@
             </h1>
             <h3>What our users love to learn</h3>
         </div>
-        <section class="food-cards "> <?php include 'php/food-cards.php'; ?> </section>
-        <section class="update-section "> <?php include 'php/update.php'; ?> </section>
-        <footer> <?php include 'php/footer.php'; ?> </footer>
-        <script src="js/nav.js" defer></script>
+        <section class="food-cards "> <?php include '../php/food-cards.php'; ?> </section>
+        <section class="update-section "> <?php include '../php/update.php'; ?> </section>
+        <footer> <?php include '../php/footer.php'; ?> </footer>
+        <script src="../js/nav.js" defer></script>
     </body>
 </html>

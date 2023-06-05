@@ -18,6 +18,9 @@
     --kaushan: "Kaushan Script", cursive;
     --inter: "Inter", sans-serif;
     --poppins: "Poppins", cursive;
+
+
+    --box-shads: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 
 
@@ -36,12 +39,20 @@
     border-radius: 12px;
   }
 
-  .bgColor {
+   .bgColor {
     background-color: white;
     transition: all 1s;
   }
   
   .bgColor li a {
     color: black;
+  } 
+
+  #scroll-label {
+    color: white;
+    transition: all 1s;
   }
 
+  #scroll-label.scroll-black {
+    color: black;
+  }

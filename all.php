@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lamdag Recipe</title>
 
-    <link rel="icon" href="img/Xassets/logo3.png" />
+    <link rel="icon" href="../img/Xassets/logo3.png" />
     <!--CSS-->
-    <link rel="stylesheet" href="css/style.css" defer/>
-    <link rel="stylesheet" href="css/root.css" defer/>
-    <link rel="stylesheet" href="css/all.css" defer/>
+    <link rel="stylesheet" href="../css/style.css" defer/>
+    <link rel="stylesheet" href="../css/root.css" defer/>
+    <link rel="stylesheet" href="../css/all.css" defer/>
   
     <!--fONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" defer/>
@@ -49,50 +49,10 @@
         <section class="food-cards "> <?php include 'php/food-cards.php'; ?> </section>
         
         <section class="update-section">
-            <div class="update-box">
-                <h2>Keep Updated on Our Website</h2>
-                <form> <input type="email" placeholder="Enter your email address" /> <button type="submit">Agree</button> </form>
-                <p>Connect with us if you would like to receive occasional updates</p>
-            </div>
+        <?php include 'php/update.php'; ?>
         </section>
         <footer >
-            <div class="info">
-                <div class="con">
-                    <h4>About us</h4>
-                    <p> This website is the collaboration between two students for their final project in web systems and technologies. </p>
-                    <ul>
-                        <li>Privacy Policy</li>
-                        <li>Terms and Conditions</li>
-                        <li>Accessibility</li>
-                        <li>Site Map</li>
-                    </ul>
-                </div>
-                <div class="con">
-                    <h4>Contact Us</h4>
-                    <p>Call: +63 955 099 2502</p>
-                    <p>+63 929 579 8093</p>
-                    <p>Email: baltazaralph001@gmail.com</p>
-                    <p>gevero530@gmail.com</p>
-                    <h4>Company Address</h4>
-                    <p>M. Recto Avenue</p>
-                    <p>Lapasan</p>
-                    <p>9000</p>
-                    <p>Cagayan de Oro City</p>
-                    <p>Philippines</p>
-                </div>
-                <div class="con">
-                    <h4>Follow Us</h4>
-                    <ul class="social-media-icons">
-                        <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
-                        <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
-                        <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
-                        <li> <a href="#"> <i class="fab fa-youtube"></i> </a> </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="rights">
-                <p>©2023 Lamdag. All Rights Reserved</p>
-            </div>
+        <?php include 'php/footer.php'; ?>
         </footer>
 
         <script src="js/nav.js" defer></script>

@@ -9,9 +9,11 @@ function filterFoodCards(category) {
       card.style.opacity = '1';
       card.style.pointerEvents = 'auto';
       card.style.display = 'block';
+      card.style.marginLeft = '0';
     } else {
       card.style.opacity = '0';
       card.style.display= 'none';
+      card.style.marginLeft = '0';
     }
   });
 }
@@ -26,15 +28,7 @@ categoryButtons.forEach(button => {
   });
 });
 
-// Add an event listener for the 'Enter' key
-searchInput.addEventListener('keypress', function (e) {
-  if (e.key === 'Enter') {
-    search();
-  }
-});
 
-
-searchBtn.addEventListener('click', search);
 
 function search() {
   const searchTerm = searchInput.value.toLowerCase();
@@ -53,4 +47,11 @@ function search() {
   });
 }
 
+// Add an event listener for the 'Enter' key
+searchInput.addEventListener('keypress', function (e) {
+  if (e.key === 'Enter') {
+    search();
+  }
+});
 
+searchBtn.addEventListener('click', search);
