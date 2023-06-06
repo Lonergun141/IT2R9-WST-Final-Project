@@ -27,14 +27,42 @@
       <nav id="myNav"> <?php include 'php/navbar.php'; ?> </nav>
       
       <!--Hero Section------------------------------------------>
-      <section class="hero">
-         <div class="hero-content ">
+      <section class="hero-section">
+        <div class="hero-1">
             <h1>Lamdag Recipes</h1>
-            <p>Indulge in the world of culinary delights with Lamdag Recipes, your go-to destination for mouthwatering recipes that will tantalize your taste buds. Whether you're an aspiring home cook or a seasoned chef, our website is designed to ignite your passion for cooking and take your culinary skills to new heights.</p>
-            <a href="About.php" class="btn">Learn More</a>
-         </div>
-         <div class="hero-image "></div>
-      </section>
+            <p>Indulge in the world of culinary delights with Lamdag Recipes, your go-to destination for mouthwatering recipes that will tantalize your taste buds. Whether you're an aspiring home cook or a seasoned chef, 
+                our website is designed to ignite your passion for cooking and take your culinary skills to new heights.</p>
+                  <a href="About.php" class="butn">Learn More</a>
+        </div>
+        <div class="hero-2">
+            <div class="sub-hero-1">
+                <h1>
+                    Delicious Food for<span>
+                    Everybody</span>
+                 </h1>
+            </div>
+            <div class="sub-hero-2">
+              <i class="fa-solid fa-quote-left"></i>
+              <p>Indulge in the world of culinary delights with Lamdag Recipes, your go-to destination for mouthwatering recipes that will tantalize your taste buds. Whether you're an aspiring home cook or a seasoned chef, 
+                our website is designed to ignite your passion for cooking and take your culinary skills to new heights.</p>
+                <a href="About.php" class="butn">Learn More</a>
+            
+            </div>
+        </div>
+        <div class="hero-3 swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/recipe/bread.jpg" loading="lazy" alt="Image 1" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/home/classic-burg.jpg" loading="lazy" alt="Image 2" />
+              </div>
+              <div class="swiper-slide">
+                <img src="img/recipe/mac.jpg" loading="lazy" alt="Image 3" />
+              </div>
+            </div>
+          </div>
+    </section>
       <!--Search Section--------------------------->
       <div class="search-container" data-aos="fade-up">
          <h1>Explore Now</h1>
@@ -78,6 +106,14 @@
       <script src="js/reviews.js" defer></script>
       <script>
          AOS.init();
+         document.addEventListener("DOMContentLoaded", function() {
+        var swiper = new Swiper(".hero-3", {
+          loop: true, // Enable continuous loop
+          autoplay: {
+            delay: 3000, // Delay between slides in milliseconds
+          },
+        });
+      });
       </script>
    </body>
 </html>
