@@ -4,13 +4,162 @@
   box-sizing: border-box;
   font-family: var(--poppins);
 }
-/********HERO*************/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+/*******Login****************/
+
+.bd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/login/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 999;
 }
+
+.bd::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.266);
+  z-index: -1;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--box-shads);
+}
+
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 5rem;
+  width: calc(100vw * 800/1900);
+  border-radius:15px;
+ 
+}
+
+
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 10%;
+  font-size: calc(100vw * 55 / 1900);
+}
+
+.login-form div {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  align-self: flex-start;
+  font-weight: 300;
+  font-size: calc(100vw * 18 / 1900);
+}
+
+.login-form input {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  padding: 5px 0;
+  width: 100%;
+}
+
+.login-form button {
+  align-self: center;
+  background-color: var(--yellow);
+  font-size: calc(100vw * 21 / 1900);
+  padding: 20px;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-form p {
+  text-align: center;
+  font-weight: 300;
+}
+
+.login-form p span {
+  color: var(--bv);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-form p span a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login-form form {
+  width: 100%;
+  height: calc(100vw * 500/1900);
+}
+
+@media (max-width: 999px) {
+  .login-form {
+    width: 500px;
+    height: 500px;
+   padding: 45px;
+  }
+  .login-form button {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .login-form p {
+    font-size: 12px;
+  }
+  .login-form h1 {
+    font-size: 35px;
+    margin: 0;
+  }
+  .login-form form {
+    height:auto;
+  }
+  
+}
+@media (max-width: 799px) {
+  .login-form {
+    border-radius: 0;
+    width: calc(100vw * 799/799);
+    height: 100vh;
+  }
+  .login-form button {
+    font-size: 16px;
+    padding: 15px;
+  }
+  .login-form p {
+    font-size: 12px;
+  }
+  .login-form h1 {
+    font-size: 35px;
+    margin: 0;
+  }
+  .login-form form {
+    height:auto;
+  }
+  .login-form label {
+    font-size: 14px;
+  }
+  
+  
+}
+
+
+/********HERO*************/
+
 .hero-section {
   display: flex;
   justify-content: center;
@@ -62,6 +211,7 @@
   align-items: center;
   background-color: var(--nero);
   z-index: 3;
+  padding: 5%;
 }
 
 .sub-hero-2 {
@@ -95,7 +245,7 @@
   font-size: calc(100vw * 75 / 1900);
   color: var(--white);
   line-height: 1.5;
-  text-align: center;
+
 }
 .sub-hero-1 span {
   color: var(--yellow);
@@ -474,6 +624,8 @@
   margin: calc(100vh * 25 / 500);
   text-align: center;
 }
+
+/*************more info***************/
 .offer-challenge {
   display: flex;
   justify-content: flex-start;
@@ -627,24 +779,7 @@
   padding: 5%;
 }
 
-.pop-card {
-  position: relative;
-  width: calc(25% - 10px);
-  border-radius: 5px;
-  overflow: hidden;
-  cursor: pointer;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  content-visibility: auto;
-}
 
-.pop-card img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
 .food-card-overlay {
   position: absolute;
@@ -849,7 +984,6 @@
   .food-card-title {
     font-size: 40px;
   }
-
   .food-card-details {
     font-size: 16px;
   }
@@ -869,7 +1003,7 @@
     font-size: 20px;
   }
   #search-input {
-    width: 300px;
+    width: 250px;
     padding: 10px;
     font-size: 16px;
   }
@@ -898,9 +1032,30 @@
   .food-card-details {
     font-size: 16px;
   }
+  .category-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .category-button {
+    font-size: 14px;
+    border: none;
+   margin: 5px;
+   width: 120px;
+  }
+  .food-card .content a {
+    margin-top: 10px;
+    padding: 10px 20px;
+
+  }
+  .offer-card {
+    height: 400px;
+  }
 }
 
-/* MAV*************************************************************************************************/
+/* NAV*************************************************************************************************/
 
 .wrapper {
   display: flex;
@@ -1501,7 +1656,7 @@ footer .info .con {
     height: 100px;
   }
   .test-container {
-    height: 50vh;
+    height: auto;
   }
 }
 
@@ -1698,7 +1853,7 @@ footer .info .con {
     padding: 0;
   }
   .recipe-info h1 {
-    font-size: 55px;
+    font-size: 45px;
   }
 
   .recipe-img img {
@@ -1710,5 +1865,10 @@ footer .info .con {
     padding-right: 5%;
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+}
+@media only screen and (max-width: 400px){
+  .recipe-tags a{
+    margin-top: 5px;
   }
 }

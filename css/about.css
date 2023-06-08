@@ -246,6 +246,10 @@ body, html {
   font-size: calc(100vw * 41/1900);
 }
 .Awk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
   padding: 5%;
   background-image:linear-gradient(#000000e6, #00000080),url("../img/About/ustp.jpg");
@@ -294,11 +298,7 @@ body, html {
   .hero-text button{
     width: 250px;
   }
-  table th,
-  table td{
-    padding: 5px;
-    font-size: 16px;
-  }
+
   .about-sec{
     flex-wrap: wrap;
     flex-direction:column;
@@ -377,11 +377,13 @@ body, html {
     width: 150px;
     font-size: 12px;
   }
-  table th,
-  table td{
-    padding: 3px;
+  .Awk h1 {
+    font-size: 25px;
+  }
+  .Awk p {
     font-size: 12px;
   }
+
 }
 
 

@@ -23,6 +23,7 @@
   <body>
     <!--Nav------------------------------------------------->
     <nav id="myNav"> <?php include '../php/navbar.php'; ?> </nav>
+    
     <section class="page">
       <div class="recipe-page">
         <div class="recipe-img">

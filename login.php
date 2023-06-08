@@ -9,7 +9,6 @@
     <!--CSS-->
     <link rel="stylesheet" href="css/style.css" defer />
     <link rel="stylesheet" href="css/root.css" defer />
-    <link rel="stylesheet" href="css/login.css" defer />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" defer />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" defer />
     <!--fONTS-->
