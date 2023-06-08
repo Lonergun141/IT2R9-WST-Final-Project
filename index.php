@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Lamdag Recipes</title>
-      <link rel="icon" href="img/Xassets/logo3.png" />
+      <link rel="icon" href="../img/Xassets/logo3.png" />
       <!--CSS-->
       <link rel="stylesheet" href="css/style.css" defer />
       <link rel="stylesheet" href="css/root.css" defer />

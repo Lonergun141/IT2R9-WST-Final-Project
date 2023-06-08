@@ -1,19 +1,19 @@
 <div class="wrapper">
    <div class="logo">
-      <a href="index.php">
+      <a href="../index.php">
          <img src="../img/Xassets/logo3.png" alt="logo" />
       </a>
    </div>
+
    <input type="radio" name="slider" id="menu-btn" />
    <input type="radio" name="slider" id="close-btn" />
+   
    <ul class="nav-links" id="myNavLinks">
       <li>
-         <a href="../index.php" class="main-link">
-            <i class="fa-solid fa-house-chimney"></i>Home </a>
+         <a href="../index.php" class="main-link"><i class="fa-solid fa-house-chimney"></i>Home </a>
       </li>
       <li>
-         <a href="../About.php" class="main-link">
-            <i class="fa-solid fa-address-card"></i>About </a>
+         <a href="../About.php" class="main-link"><i class="fa-solid fa-address-card"></i>About </a>
       </li>
       <li>
          <a href="#" id="hover" class="desktop-item main-link"><i class="fa-solid fa-compass"></i>Explore </a>

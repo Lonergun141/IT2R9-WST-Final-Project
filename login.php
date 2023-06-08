@@ -31,9 +31,6 @@
     <div class="bd">
       <section>
         <div class="login-container">
-          <div class="form-img">
-            <img src="img/home/hero-bg-4.jpg" alt="login-card">
-          </div>
           <div class="login-form">
             <form id="login-form">
               <h1>Login</h1>
@@ -46,11 +43,12 @@
                 <input type="password" id="login-password" required />
               </div>
               <button type="submit">Sign In</button>
-            </form>
-            <p>Not yet Registered? <span>
+              <p>Not yet Registered? <span>
                 <a href="register.php">Sign up</a>
               </span>
             </p>
+            </form>
+        
           </div>
         </div>
       </section>
