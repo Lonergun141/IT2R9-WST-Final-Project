@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lamdag Recipes</title>
-    <link rel="icon" href="../img/Xassets/logo3.png" />
+    <link rel="icon" href="img/Xassets/logo3.png" />
     <!--CSS-->
-    <link rel="stylesheet" href="../css/style.css" defer />
-    <link rel="stylesheet" href="../css/root.css" defer />
+    <link rel="stylesheet" href="css/style.css" defer />
+    <link rel="stylesheet" href="css/root.css" defer />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" defer />
     <!--fONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,21 +22,20 @@
   </head>
   <body>
     <!--Nav------------------------------------------------->
-    <nav id="myNav"> <?php include '../php/navbar.php'; ?> </nav>
+    <nav id="myNav"> <?php include 'php/navbar.php'; ?> </nav>
+    
     <section class="page">
       <div class="recipe-page">
         <div class="recipe-img">
-          <img src="../img/recipe/steak.png" loading="lazy" alt="Food Image">
+          <img src="img/recipe/main_img.png" loading="lazy" alt="Food Image">
         </div>
         <div class="recipe-info">
           <div class="title-pops" data-aos="fade-up">
             <h1>
-              <span>American</span>Steak
+              <span>Classic</span>Burger
             </h1>
           </div>
-          <p id="p1"> Indulge in the irresistible allure of our Classic Burger. 
-            Sink your teeth into a toasted bun, topped with crisp lettuce, ripe tomatoes, onions, 
-            and delectable bacon mayo. A harmonious blend of flavors that exceeds expectations. </p>
+          <p id="p1"> Indulge in the irresistible allure of our Classic Burger. Sink your teeth into a toasted bun, topped with crisp lettuce, ripe tomatoes, onions, and delectable bacon mayo. A harmonious blend of flavors that exceeds expectations. </p>
           <div class="recipe-icons">
             <div>
               <i class="fas fa-clock"></i>
@@ -46,7 +45,7 @@
             <div>
               <i class="far fa-clock"></i>
               <h5>cook time</h5>
-              <p>5-10 mins</p>
+              <p>5 min</p>
             </div>
             <div>
               <i class="fas fa-user-friends"></i>
@@ -54,10 +53,10 @@
               <p>1 serving</p>
             </div>
           </div>
-          <p class="recipe-tags"> Tags : 
+          <p class="recipe-tags"> Tags : <a href="tag-template.html">breakfast</a>
             <a href="tag-template.html">Lunch</a>
             <a href="tag-template.html">Dinner</a>
-    
+            <a href="tag-template.html">Snacks</a>
           </p>
         </div>
       </div>
@@ -71,8 +70,7 @@
             <p>step 1</p>
             <div></div>
           </header>
-          <p>Bring to room temp! This makes an amazing difference to cooking through 
-            evenly rather than ending up with a thick overcooked band in order for the very centre to be cooked to your liking.</p>
+          <p>Oil your grill or a cast-iron pan, and grill or sear the beef patty as well as your burger bun around 54 degrees Celsius. Cook them to your desired doneness.</p>
         </div>
         <!--STEP 2-->
         <div class="single-instruction">
@@ -80,7 +78,7 @@
             <p>step 2</p>
             <div></div>
           </header>
-          <p>Pat dry and season the steak generously with salt and pepper – this helps form that amazing crust we all know and love about great steaks.</p>
+          <p>Once the beef patty is ready, add onion rings on top and let it sit on the patty for a couple of minutes.</p>
         </div>
         <!--STEP 3-->
         <div class="single-instruction">
@@ -88,7 +86,7 @@
             <p>step 3</p>
             <div></div>
           </header>
-          <p>Get your skillet SMOKING HOT before putting the steak in – again, for the crust</p>
+          <p>Add the lettuce next and make sure it is already washed and cleaned.</p>
         </div>
         <!--STEP 4-->
         <div class="single-instruction">
@@ -96,7 +94,7 @@
             <p>step 4</p>
             <div></div>
           </header>
-          <p>WARNING: The butter will sputter when you add the thyme, so stand back!</p>
+          <p>Spread the bacon mayonnaise generously on the base toasted bun.</p>
         </div>
         <!--STEP 5-->
         <div class="single-instruction">
@@ -104,16 +102,17 @@
             <p>step 5</p>
             <div></div>
           </header>
-          <p>Take the steak off the stove BEFORE your desired internal temperature (see chart below) because the internal temperature will continue to rise as it rests</p>
+          <p>After making your burger, serve it on a plate with your desired dips on the side. Enjoy your meal!</p>
         </div>
       </div>
       <div class="second-column">
         <div>
           <h4>Ingredients</h4>
-          <p class="single-ingredient">1 Thickish cut steak </p>
-          <p class="single-ingredient">1 pc Butter</p>
-          <p class="single-ingredient">1 pc Garlic</p>
-          <p class="single-ingredient">1 fresh thyme</p>
+          <p class="single-ingredient">1 pc burger bun</p>
+          <p class="single-ingredient">1 pc beef patty</p>
+          <p class="single-ingredient">1 pc lettuce</p>
+          <p class="single-ingredient">1 cup bacon mayonnaise</p>
+          <p class="single-ingredient">2 pcs onion rings</p>
         </div>
       </div>
     </section>
@@ -123,9 +122,9 @@
       </h1>
       <h3>What our users love to learn</h3>
     </div>
-    <section class="food-cards "> <?php include '../php/food-cards.php'; ?> </section>
-    <section class="update-section "> <?php include '../php/update.php'; ?> </section>
-    <footer> <?php include '../php/footer.php'; ?> </footer>
-    <script src="../js/nav.js" defer></script>
+    <section class="food-cards "> <?php include 'php/food-cards.php'; ?> </section>
+    <section class="update-section "> <?php include 'php/update.php'; ?> </section>
+    <footer> <?php include 'php/footer.php'; ?> </footer>
+    <script src="js/nav.js" defer></script>
   </body>
 </html>

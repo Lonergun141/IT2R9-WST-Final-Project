@@ -5,10 +5,10 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Lamdag Recipes</title>
-      <link rel="icon" href="../img/Xassets/logo3.png" />
+      <link rel="icon" href="img/Xassets/logo3.png" />
       <!--CSS-->
-      <link rel="stylesheet" href="../css/style.css" defer />
-      <link rel="stylesheet" href="../css/root.css" defer />
+      <link rel="stylesheet" href="css/style.css" defer />
+      <link rel="stylesheet" href="css/root.css" defer />
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" defer />
       <!--fONTS-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,40 +22,40 @@
    </head>
    <body>
       <!--Nav------------------------------------------------->
-      <nav id="myNav"> <?php include '../php/navbar.php'; ?> </nav>
+      <nav id="myNav"> <?php include 'php/navbar.php'; ?> </nav>
       <section class="page">
          <div class="recipe-page">
             <div class="recipe-img">
-               <img src="../img/recipe/mac.png" loading="lazy" alt="Food Image">
+               <img src="img/recipe/fried.png" loading="lazy" alt="Food Image">
             </div>
             <div class="recipe-info">
                <div class="title-pops" data-aos="fade-up">
                   <h1>
-                     <span>Cheese</span>and Mac
+                     <span>Korean</span>Chicken
                   </h1>
                </div>
-               <p id="p1">Mac and Cheese is a beloved comfort food dish that combines tender macaroni pasta with a creamy and cheesy sauce. 
-                It's a satisfying and flavorful meal that can be enjoyed on its own or as a side dish.</p>
+               <p id="p1">Get ready to savor the bold and dynamic flavors of Korean cuisine with each crunchy bite—a crispy and succulent masterpiece. Tender chicken wings or drumsticks coated in a flavorful blend of spices, fried to perfection, and coated in a harmonious sauce of gochujang, soy sauce, and honey. </p>
                <div class="recipe-icons">
                   <div>
                      <i class="fas fa-clock"></i>
                      <h5>prep time</h5>
-                     <p>5—10 mins</p>
+                     <p>15—20 mins</p>
                   </div>
                   <div>
                      <i class="far fa-clock"></i>
                      <h5>cook time</h5>
-                     <p>5—8 mins</p>
+                     <p>25—30 mins</p>
                   </div>
                   <div>
                      <i class="fas fa-user-friends"></i>
                      <h5>serving</h5>
-                     <p>1—2 servings</p>
+                     <p>4—6 servings</p>
                   </div>
                </div>
                <p class="recipe-tags"> Tags : <a href="tag-template.html">breakfast</a>
-                  <a href="tag-template.html">Breakfast</a>
-                  <a href="tag-template.html">Snack</a>
+                  <a href="tag-template.html">Lunch</a>
+                  <a href="tag-template.html">Dinner</a>
+                  <a href="tag-template.html">Snacks</a>
                </p>
             </div>
          </div>
@@ -69,7 +69,7 @@
                   <p>step 1</p>
                   <div></div>
                </header>
-               <p>Cook the elbow macaroni according to the package instructions until al dente. Drain and set aside.</p>
+               <p>Prepare the chicken: In a large bowl, combine the flour, cornstarch, salt, black pepper, garlic powder, and ginger powder. Toss the chicken wings or drumsticks in the flour mixture, ensuring they are evenly coated.</p>
             </div>
             <!--STEP 2-->
             <div class="single-instruction">
@@ -77,7 +77,7 @@
                   <p>step 2</p>
                   <div></div>
                </header>
-               <p>In a large saucepan, melt the butter over medium heat. Add the flour and whisk continuously for about 1-2 minutes to make a roux.</p>
+               <p>Fry the chicken: In a deep pot or skillet, heat vegetable oil to a temperature of around 350°F (175°C). Carefully add the coated chicken pieces in batches, frying them for about 10-12 minutes or until they turn golden brown and crispy. Transfer the cooked chicken to a paper towel-lined plate to drain excess oil.</p>
             </div>
             <!--STEP 3-->
             <div class="single-instruction">
@@ -85,7 +85,7 @@
                   <p>step 3</p>
                   <div></div>
                </header>
-               <p>Slowly pour in the milk while whisking constantly to avoid lumps. Continue whisking until the mixture thickens and comes to a simmer.</p>
+               <p>Make the sauce: In a separate saucepan, combine the gochujang, soy sauce, honey (or brown sugar), and rice vinegar. Cook over medium heat, stirring constantly, until the sauce thickens and becomes glossy.</p>
             </div>
             <!--STEP 4-->
             <div class="single-instruction">
@@ -93,7 +93,7 @@
                   <p>step 4</p>
                   <div></div>
                </header>
-               <p>Reduce the heat to low and add the shredded cheddar cheese to the sauce. Stir until the cheese is melted and the sauce is smooth.</p>
+               <p>Coat the chicken in sauce: Place the fried chicken in a large bowl and pour the prepared sauce over it. Toss the chicken gently to ensure it is evenly coated with the sauce.</p>
             </div>
             <!--STEP 5-->
             <div class="single-instruction">
@@ -101,45 +101,25 @@
                   <p>step 5</p>
                   <div></div>
                </header>
-               <p>Add the mustard powder, garlic powder, salt, and pepper. Stir to combine.</p>
-            </div>
-               <!--STEP 6-->
-               <div class="single-instruction">
-               <header>
-                  <p>step 6</p>
-                  <div></div>
-               </header>
-               <p>Remove the sauce from heat and pour it over the cooked macaroni. Stir well to coat the pasta evenly with the cheese sauce.</p>
-            </div>
-              <!--STEP 7-->
-              <div class="single-instruction">
-               <header>
-                  <p>step 7</p>
-                  <div></div>
-               </header>
-               <p>Taste and adjust the seasoning if needed.</p>
-            </div>
-              <!--STEP 8-->
-              <div class="single-instruction">
-               <header>
-                  <p>step 8</p>
-                  <div></div>
-               </header>
-               <p>Serve the mac and cheese hot and enjoy the creamy, cheesy goodness.</p>
+               <p>Serve and garnish: Transfer the Korean Fried Chicken to a serving platter and garnish with sesame seeds and chopped green onions, if desired. Serve it hot and enjoy the crispy, flavorful delight of Korean Fried Chicken!</p>
             </div>
          </div>
          <div class="second-column">
             <div>
                <h4>Ingredients</h4>
-               <p class="single-ingredient">8 ounces elbow macaroni</p>
-               <p class="single-ingredient">2 tablespoons unsalted butter</p>
-               <p class="single-ingredient">2 tablespoons all-purpose flour</p>
-               <p class="single-ingredient">2 cups milk</p>
-               <p class="single-ingredient">2 cups shredded cheddar cheese</p>
-               <p class="single-ingredient">1/2 teaspoon mustard powder</p>
-               <p class="single-ingredient">1/2 teaspoon garlic powder</p>
-               <p class="single-ingredient">Salt and pepper to taste</p>
-            
+               <p class="single-ingredient">2 pounds of chicken wings/drumsticks</p>
+               <p class="single-ingredient">1 cup of all-purpose flour</p>
+               <p class="single-ingredient">1 cup of cornstarch</p>
+               <p class="single-ingredient">1 teaspoon of salt</p>
+               <p class="single-ingredient">1/2 teaspoon of black pepper</p>
+               <p class="single-ingredient">1/2 teaspoon of garlic powder</p>
+               <p class="single-ingredient">1/2 teaspoon of ginger powder</p>
+               <p class="single-ingredient">1/2 cup of gochujang (Korean red pepper paste)</p>
+               <p class="single-ingredient">1/4 cup of soy sauce</p>
+               <p class="single-ingredient">1/4 cup of honey or brown sugar</p>
+               <p class="single-ingredient">2 tablespoons of rice vinegar</p>
+               <p class="single-ingredient">Vegetable oil for frying</p>
+               <p class="single-ingredient">Optional garnish: sesame seeds, chopped green onions</p>
             </div>
          </div>
       </section>
@@ -149,9 +129,9 @@
          </h1>
          <h3>What our users love to learn</h3>
       </div>
-      <section class="food-cards "> <?php include '../php/food-cards.php'; ?> </section>
-      <section class="update-section "> <?php include '../php/update.php'; ?> </section>
-      <footer> <?php include '../php/footer.php'; ?> </footer>
-      <script src="../js/nav.js" defer></script>
+      <section class="food-cards "> <?php include 'php/food-cards.php'; ?> </section>
+      <section class="update-section "> <?php include 'php/update.php'; ?> </section>
+      <footer> <?php include 'php/footer.php'; ?> </footer>
+      <script src="js/nav.js" defer></script>
    </body>
 </html>
